@@ -9,6 +9,8 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         about: resolve(__dirname, "about/index.html"),
+        timer: resolve(__dirname, "timer/index.html"),
+        fcccolorchanger: resolve(__dirname, "fcccolorchanger/index.html"),
       },
     },
   },
