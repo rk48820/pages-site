@@ -11,6 +11,8 @@ export default defineConfig({
         about: resolve(__dirname, "about/index.html"),
         timer: resolve(__dirname, "timer/index.html"),
         fcccolorchanger: resolve(__dirname, "fcccolorchanger/index.html"),
+        palendromechecker: resolve(__dirname, "palendromechecker/index.html"),
+
       },
     },
   },
