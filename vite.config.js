@@ -12,6 +12,7 @@ export default defineConfig({
         timer: resolve(__dirname, "timer/index.html"),
         fcccolorchanger: resolve(__dirname, "fcccolorchanger/index.html"),
         palindromechecker: resolve(__dirname, "palindromechecker/index.html"),
+        romannumeralconverter: resolve(__dirname, "romannumeralconverter/index.html")
 
       },
     },
