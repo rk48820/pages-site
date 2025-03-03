@@ -9,7 +9,7 @@
 :root {
   --primary-color: #333;
   --secondary-color: #ffcc00;
-  --background-color: #110815;
+  --background-color: #17e604;
   --text-color: #efefef;
   --button-bg: #feac32;
 }
@@ -59,24 +59,5 @@ main {
   padding: 20px;
 }
 
-.bg-information-container {
-  margin-bottom: 25px;
-  font-size: 1.2rem;
-}
 
 
-.btn {
-  cursor: pointer;
-  padding: 12px 20px;
-  border: none;
-  font-size: 16px;
-  font-weight: bold;
-  color: var(--background-color);
-  background: var(--button-bg);
-  border-radius: 5px;
-  transition: background 0.3s ease;
-}
-
-.btn:hover {
-  background: #f89808;
-}
