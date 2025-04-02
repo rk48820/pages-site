@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-    <title>Recipe Organizer and Meal Planner</title>
-    <link rel="stylesheet" crossorigin href="/pages-site/assets/recipeorganizerandmealplanner-CmZlLHcl.css">
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Organizer & Meal Planner</title>
+  <link rel="stylesheet" crossorigin href="/pages-site/assets/recipeorganizerandmealplanner-41R0YEeR.css">
+</head>
+<body>
 
     <nav>
         <a href="/pages-site/">home page link</a>
@@ -20,10 +19,62 @@
         <a href="/pages-site/cashregisterproject/">cash register project page link</a>
         <a href="/pages-site/pokemonsearchapp/">pokemon search app page link</a>
         <a href="/pages-site/recipeorganizerandmealplanner/">recipe organizer and meal planner page link</a>
-      </nav>  
-    <main>
-      <h1>Recipe Organizer and Meal Planner</h1>
-    </main>
+      </nav>
+
+    <div class="container">
+        <h1>Recipe Organizer & Meal Planner</h1>
+
+        
+        <div class="form-container">
+            <h2>Add a Recipe</h2>
+            <input type="text" id="recipeName" placeholder="Recipe Name">
+            <textarea id="recipeIngredients" placeholder="Ingredients"></textarea>
+            <textarea id="recipeInstructions" placeholder="Instructions"></textarea>
+            <button onclick="addRecipe()">Add Recipe</button>
+        </div>
+
+        
+        <div class="recipe-list">
+            <h2>Saved Recipes</h2>
+            <ul id="recipeContainer"></ul>
+        </div>
+
+        
+        <div class="meal-planner">
+            <h2>Meal Planner</h2>
+            <div id="mealPlan">
+                <div class="day">
+                    <h3>Monday</h3>
+                    <select class="mealSelect"></select>
+                </div>
+                <div class="day">
+                    <h3>Tuesday</h3>
+                    <select class="mealSelect"></select>
+                </div>
+                <div class="day">
+                    <h3>Wednesday</h3>
+                    <select class="mealSelect"></select>
+                </div>
+                <div class="day">
+                    <h3>Thursday</h3>
+                    <select class="mealSelect"></select>
+                </div>
+                <div class="day">
+                    <h3>Friday</h3>
+                    <select class="mealSelect"></select>
+                </div>
+                <div class="day">
+                    <h3>Saturday</h3>
+                    <select class="mealSelect"></select>
+                </div>
+                <div class="day">
+                    <h3>Sunday</h3>
+                    <select class="mealSelect"></select>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
