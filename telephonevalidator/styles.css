@@ -113,9 +113,7 @@
     margin: 10px 0;
   }
   
-
-
-nav {
+  nav {
     background-color: var(--primary-color);
     padding: 15px;
     position: fixed;

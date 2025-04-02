@@ -17,6 +17,7 @@ body {
   a:hover {
     text-decoration: underline;
   }
+
   nav {
     background-color: var(--primary-color);
     padding: 15px;

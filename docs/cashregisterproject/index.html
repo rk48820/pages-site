@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Cash Register</title>
+    <link rel="stylesheet" crossorigin href="/pages-site/assets/cashregisterproject-BXs9iUTi.css">
+  </head>
+  <body>
+    <nav>
+        <a href="/pages-site/">home page link</a>
+        <a href="/pages-site/about/">about page link</a>
+        <a href="/pages-site/timer/">timer page link</a>
+        <a href="/pages-site/fcccolorchanger/">color changer page link</a>
+        <a href="/pages-site/palindromechecker/">palindrome checker page link</a>
+        <a href="/pages-site/romannumeralconverter/">roman numeral converter page link</a>
+        <a href="/pages-site/telephonevalidator/">telephone validator page link</a>
+        <a href="/pages-site/cashregisterproject/">cash register project page link</a>
+        <a href="/pages-site/pokemonsearchapp/">pokemon search app page link</a>
+        <a href="/pages-site/recipeorganizerandmealplanner/">recipe organizer and meal planner page link</a>
+      </nav>  
+    <main>
+        <p>
+            This project is based on a lesson from 
+            <a href="https://www.freecodecamp.org/learn/" target="_blank" style="color: blue;">
+              FreeCodeCamp
+            </a>.
+          </p>
+
+      <h1>Cash Register Project</h1>
+      <div id="change-due"></div>
+      <div class="input-div">
+        <label for="cash">Enter cash from customer:</label>
+        <input type="number" id="cash" class="user-input" value="" />
+        <button class="check-btn-styles" id="purchase-btn">Purchase</button>
+      </div>
+      <div class="container">
+        <div class="top-display-screen-container">
+          <p id="price-screen" class="price-screen"></p>
+          <div class="connector"></div>
+        </div>
+        <div class="top-register">
+          <div class="btns-container">
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+          </div>
+          <div id="cash-drawer-display" class="cash-drawer-display"></div>
+        </div>
+        <div class="bottom-register">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

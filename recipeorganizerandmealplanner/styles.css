@@ -9,3 +9,15 @@ nav {
     gap: 20px;
     z-index: 1000;
   }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+  }
