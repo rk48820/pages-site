@@ -131,6 +131,19 @@ button:hover {
     padding: 5px;
 }
 
+.instructions {
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.instructions h2 {
+  margin-top: 20px;
+}
+
+.instructions ol {
+  padding-left: 20px;
+}
+
 
 
 
